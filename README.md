@@ -8,3 +8,5 @@ Since F# already offers immutable sets and maps, it might be easier to drop this
 This implementation is based on 2-3 trees which are a precursor of red-black trees. I learned about 2-3 trees from a book by Robert Sedgewick, and I wrote prototypes of this code in Scheme and OCaml before porting it to F#.
 
 Operations such as insertion, replacement, and deletion occur in logarithmic time.
+
+Although the solution and project files were created with VS 2015, the F# code should probably run on implementations as old as VS 2010.
