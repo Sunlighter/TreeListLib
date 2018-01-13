@@ -12,9 +12,9 @@
     <RepositoryUrl>https://github.com/Sunlighter/TreeListLib.git</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/Sunlighter/TreeListLib/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>Copyright (c) 2015 by Sunlighter</Copyright>
-    <Version>1.0.2</Version>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <FileVersion>1.0.2.0</FileVersion>
+    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <FileVersion>1.0.3.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -26,11 +26,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="TreeListLib.fsi" />
     <Compile Include="TreeListLib.fs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="TreeListLib.fsi" />
   </ItemGroup>
 
 </Project>
