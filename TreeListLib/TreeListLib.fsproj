@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Sunlighter.TreeListLib</AssemblyName>
     <Authors>Sunlighter</Authors>
     <Company />
@@ -12,10 +12,11 @@
     <RepositoryUrl>https://github.com/Sunlighter/TreeListLib.git</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/Sunlighter/TreeListLib/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>Copyright (c) 2015 by Sunlighter</Copyright>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <Optimize>true</Optimize>
+    <Optimize>false</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
