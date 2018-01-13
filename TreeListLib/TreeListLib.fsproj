@@ -12,11 +12,17 @@
     <RepositoryUrl>https://github.com/Sunlighter/TreeListLib.git</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/Sunlighter/TreeListLib/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>Copyright (c) 2015 by Sunlighter</Copyright>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Sunlighter.TreeListLib.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
