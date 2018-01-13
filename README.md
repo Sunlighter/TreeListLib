@@ -9,4 +9,4 @@ This implementation is based on 2-3 trees which are a precursor of red-black tre
 
 Operations such as insertion, replacement, and deletion occur in logarithmic time.
 
-Although the solution and project files were created with VS 2015, the F# code should probably run on implementations as old as VS 2010.
+Although the solution and project files were created with VS 2017, the F# code should probably run on implementations as old as VS 2010. This project compiles the code for .NET Standard 2.0.
