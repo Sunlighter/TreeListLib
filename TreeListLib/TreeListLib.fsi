@@ -1,4 +1,4 @@
-module TreeListLib
+module Sunlighter.TreeListLib
 
 /// <summary>
 /// An immutable indexed list.

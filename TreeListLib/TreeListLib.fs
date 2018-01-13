@@ -1,4 +1,4 @@
-﻿module TreeListLib
+﻿module Sunlighter.TreeListLib
 
 type TreeList<'a> =
   | Empty
