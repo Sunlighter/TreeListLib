@@ -28,6 +28,7 @@
   <ItemGroup>
     <Compile Include="TreeListLib.fsi" />
     <Compile Include="TreeListLib.fs" />
+    <Compile Include="SumTreeListLib.fs" />
   </ItemGroup>
 
 </Project>
